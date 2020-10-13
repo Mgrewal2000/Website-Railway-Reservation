@@ -1,0 +1,65 @@
+
+ body{
+ background-image: url("TrainBG2.jpg");
+ opacity:.8;
+ object-fit: fill;
+ background-size: 100%;
+ background-repeat: repeat;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ table{
+        border-collapse: collapse; 
+        width: 100%;
+        font-family: arial, sans-serif;
+       
+    }
+  
+    td, th {
+        border: 1px solid #cccccc;
+        padding: 8px;
+       
+    }
+    
+    #tablec{
+    background-color:black; 
+   
+      color: white;
+      opacity:.8;
+      
+    
+    }
+    
+    
+    #header{
+  width: 350px;
+    border: 1px black solid;
+    color: black;
+    margin:auto;
+    background-color: #F5F5DC;
+    text-align: center;
+    opacity: .7;
+    margin-bottom:10px;
+    }
+    
+    th{
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    tr:nth-child(even){
+        background-color: #8b8680;
+    }
+   tr:nth-child(odd){
+   background-color:#979aaa;
+   }
+   
+    
+    tr:hover{
+        color:white;
+        background-color: black;
+    }
